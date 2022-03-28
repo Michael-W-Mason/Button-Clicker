@@ -1,0 +1,135 @@
+/* Utility Start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: blue;
+}
+
+/* Utility End */
+
+.page{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.navbar{
+    padding: 20px;
+    min-height: 60px;
+    background-color: lightgray;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar > h1{
+    font-size: 45px;
+    margin-left: 10px;
+}
+
+.navbar > input{
+    width: 35%;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.navbar > button{
+    background-color: blue;
+    color: whitesmoke;
+    margin-right: 10px;
+    padding: 3px 10px;
+    font-size: 20px;
+    box-shadow: 5px 5px 0px black;
+}
+
+.leftcol{
+    flex: 2;
+    margin-right: 10px;
+}
+
+.content{
+    flex: 1;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0px 0px 0px;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+.word{
+    margin: 10px;
+    align-items: center;
+}
+
+.word > h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.word > h2{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.word > h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.word > button{
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 5px 5px 0px black;
+}
+
+.def{
+    flex: 3;
+    padding: 20px;
+}
+
+.def > h1{
+    font-size: 30px;
+}
+
+.rightcol{
+    flex: 1;
+    margin-left: 10px;
+}
+
+.ad{
+    margin: 20px 0px 0px 0px;
+    padding: 20px;
+    border: 5px solid black;
+    align-items: center;
+}
+
+.ad > h1{
+    font-size: 40px;
+    padding: 20px 8px;
+}
+
+.ad > button{
+    background-color: lightgreen;
+    box-shadow: 5px 5px 0px black;
+    padding: 15px 80px;
+    font-size: 25px;
+    font-weight: bold;
+}
